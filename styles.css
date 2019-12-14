@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+.game-ui {
+  display: none;
+}
+.game-ui .grid-container.tic-tac-toe {
+  display: grid;
+  grid-template-columns: repeat(3, 125px);
+  grid-template-rows: repeat(3, 125px);
+  border: 1px solid red;
+  justify-content: center;
+}
+.game-ui .grid-container.tic-tac-toe .grid-item {
+  border: 1px solid black;
+  border-width: 0 8px 8px 0;
+}
+.game-ui .grid-container.tic-tac-toe #tic-tac-toe-3, .game-ui .grid-container.tic-tac-toe #tic-tac-toe-6, .game-ui .grid-container.tic-tac-toe #tic-tac-toe-9 {
+  border-right: 0;
+}
+.game-ui .grid-container.tic-tac-toe #tic-tac-toe-7, .game-ui .grid-container.tic-tac-toe #tic-tac-toe-8, .game-ui .grid-container.tic-tac-toe #tic-tac-toe-9 {
+  border-bottom: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

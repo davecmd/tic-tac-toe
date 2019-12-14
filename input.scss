@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+.game-ui {
+    display: none;
+.grid-container.tic-tac-toe {
+        display: grid;
+        grid-template-columns: repeat(3, 125px);
+        grid-template-rows: repeat(3,125px);
+        border: 1px solid red;
+        justify-content: center;
+        .grid-item {
+            border: 1px solid black;
+            border-width: 0 8px 8px 0;
+        }
+        #tic-tac-toe-3, #tic-tac-toe-6, #tic-tac-toe-9{ 
+            border-right: 0;
+        }
+        #tic-tac-toe-7, #tic-tac-toe-8, #tic-tac-toe-9 {
+            border-bottom: 0;
+        }
+}
+ 
+}
+
+

@@ -1,0 +1,19 @@
+.grid-container.tic-tac-toe {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(3, 50px);
+  border: 1px solid red;
+}
+.grid-container.tic-tac-toe .grid-item {
+  border: 1px solid black;
+  border-width: 0 1px 1px 0;
+}
+.grid-container.tic-tac-toe .tic-tac-toe-3 {
+  border: 5px solid green;
+}
+
+div {
+  color: red;
+}
+
+/*# sourceMappingURL=output.css.map */
